@@ -1,0 +1,27 @@
+﻿  stdafx.cpp
+  audio_math.cpp
+  audio_sample.cpp
+  base64.cpp
+  bit_array.cpp
+  bsearch.cpp
+  cpuid.cpp
+  filehandle.cpp
+  guid.cpp
+  nix-objects.cpp
+  other.cpp
+  pathUtils.cpp
+  printf.cpp
+  selftest.cpp
+  sort.cpp
+  string_base.cpp
+  string_conv.cpp
+  stringNew.cpp
+  threads.cpp
+  timers.cpp
+  utf8.cpp
+  Compiling...
+  wildcard.cpp
+  win-objects.cpp
+win-objects.cpp(297): warning C4996: 'GetVersion': was declared deprecated
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\um\sysinfoapi.h(124): note: see declaration of 'GetVersion'
+  pfc.vcxproj -> J:\Projects\Caitlin-foobar2000\foobar2000\foo_mediacontrol\Release\pfc.lib

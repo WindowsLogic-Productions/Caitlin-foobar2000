@@ -1,0 +1,3 @@
+﻿  component_client.cpp
+j:\projects\caitlin-foobar2000\foobar2000\shared\fb2kdebug.h(80): warning C4838: conversion from 'int' to 'const ULONG_PTR' requires a narrowing conversion
+  foobar2000_component_client.vcxproj -> J:\Projects\Caitlin-foobar2000\foobar2000\foobar2000_component_client\Debug\foobar2000_component_client.lib

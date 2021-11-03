@@ -1,0 +1,14 @@
+﻿  stdafx.cpp
+j:\projects\caitlin-foobar2000\foobar2000\shared\fb2kdebug.h(80): warning C4838: conversion from 'int' to 'const ULONG_PTR' requires a narrowing conversion
+j:\projects\caitlin-foobar2000\foobar2000\helpers\win32_misc.h(126): warning C4996: 'GetVersion': was declared deprecated
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\um\sysinfoapi.h(124): note: see declaration of 'GetVersion'
+j:\projects\caitlin-foobar2000\foobar2000\helpers\win32_misc.h(237): warning C4302: 'type cast': truncation from 'LPWSTR' to 'wchar_t'
+j:\projects\caitlin-foobar2000\foobar2000\helpers\CPowerRequest.h(59): warning C4996: 'GetVersion': was declared deprecated
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\um\sysinfoapi.h(124): note: see declaration of 'GetVersion'
+  misc.cpp
+  inplace_edit_v2.cpp
+  inplace_edit.cpp
+  CDialogResizeHelper.cpp
+  AutoComplete.cpp
+  Generating Code...
+  foobar2000_ATL_helpers.vcxproj -> J:\Projects\Caitlin-foobar2000\foobar2000\foo_mediacontrol\Debug\foobar2000_ATL_helpers.lib
