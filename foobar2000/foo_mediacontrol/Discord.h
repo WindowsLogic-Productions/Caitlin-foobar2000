@@ -37,7 +37,7 @@ const char* GetArtType() {
 	int arttype = preferences::get_art_type();
 
 	if (arttype == 1) {
-		return "luna";
+		return "caitlin";
 	}
 	else if (arttype == 2) {
 		return "windowslogic";
@@ -73,7 +73,7 @@ const char* GetArtType() {
 		return "lewd";
 	}
 
-	return "luna";
+	return "caitlin";
 }
 
 void UpdatePresence(wchar_t *songname, wchar_t *artist, double tracklength, wchar_t *filename, wchar_t *album)
@@ -101,8 +101,8 @@ void UpdatePresence(wchar_t *songname, wchar_t *artist, double tracklength, wcha
 		}
 		discordPresence.smallImageKey = "play";
 		discordPresence.smallImageText = "Playing";
-		if (GetArtType() == "luna") {
-			discordPresence.largeImageText = "More hurt than you can know...";
+		if (GetArtType() == "caitlin") {
+			discordPresence.largeImageText = "Caitlin's Music";
 		}
 		else if (GetArtType() == "windowslogic") {
 			discordPresence.largeImageText = "WindowsLogic's Music";
@@ -171,8 +171,8 @@ void UpdatePresenceSeeked(double seek) {
 		}
 		discordPresence.smallImageKey = "play";
 		discordPresence.smallImageText = "Playing";
-		if (GetArtType() == "luna") {
-			discordPresence.largeImageText = "More hurt than you can know...";
+		if (GetArtType() == "caitlin") {
+			discordPresence.largeImageText = "Caitlin's Music";
 		}
 		else if (GetArtType() == "windowslogic") {
 			discordPresence.largeImageText = "WindowsLogic's Music";
@@ -245,8 +245,8 @@ void UpdatePresenceResumed() {
 		}
 		discordPresence.smallImageKey = "play";
 		discordPresence.smallImageText = "Playing";
-		if (GetArtType() == "luna") {
-			discordPresence.largeImageText = "More hurt than you can know...";
+		if (GetArtType() == "caitlin") {
+			discordPresence.largeImageText = "Caitlin's Music";
 		}
 		else if (GetArtType() == "windowslogic") {
 			discordPresence.largeImageText = "WindowsLogic's Music";
@@ -316,8 +316,8 @@ void UpdatePresencePaused() {
 		}
 		discordPresence.smallImageKey = "pause";
 		discordPresence.smallImageText = "Paused";
-		if (GetArtType() == "luna") {
-			discordPresence.largeImageText = "More hurt than you can know...";
+		if (GetArtType() == "caitlin") {
+			discordPresence.largeImageText = "Caitlin's Music";
 		}
 		else if (GetArtType() == "windowslogic") {
 			discordPresence.largeImageText = "WindowsLogic's Music";
@@ -383,8 +383,8 @@ void UpdatePresenceStopped()
 				}
 				discordPresence.smallImageKey = "stop";
 				discordPresence.smallImageText = "Stopped";
-				if (GetArtType() == "luna") {
-					discordPresence.largeImageText = "More hurt than you can know...";
+				if (GetArtType() == "caitlin") {
+					discordPresence.largeImageText = "Caitlin's Music";
 				}
 				else if (GetArtType() == "windowslogic") {
 					discordPresence.largeImageText = "WindowsLogic's Music";
@@ -437,8 +437,8 @@ void UpdatePresenceStopped()
 				}
 				discordPresence.smallImageKey = "stop";
 				discordPresence.smallImageText = "Stopped";
-				if (GetArtType() == "luna") {
-					discordPresence.largeImageText = "More hurt than you can know...";
+				if (GetArtType() == "caitlin") {
+					discordPresence.largeImageText = "Caitlin's Music";
 				}
 				else if (GetArtType() == "windowslogic") {
 					discordPresence.largeImageText = "WindowsLogic's Music";
