@@ -32,7 +32,7 @@ static char *savedalbum;
 static double start_epoch;
 static double pause_epoch;
 static double savedlength;
-
+// Code for selecting the art that appears on the rich presence.
 const char* GetArtType() {
 	int arttype = preferences::get_art_type();
 
@@ -75,7 +75,7 @@ const char* GetArtType() {
 
 	return "caitlin";
 }
-
+// Determine if a song is playing.
 void UpdatePresence(wchar_t *songname, wchar_t *artist, double tracklength, wchar_t *filename, wchar_t *album)
 {
 	if (preferences::get_enabled()) {
@@ -158,7 +158,7 @@ void UpdatePresence(wchar_t *songname, wchar_t *artist, double tracklength, wcha
 		Discord_UpdatePresence(&discordPresence);
 	}
 }
-
+// Determine if a song is seeked to.
 void UpdatePresenceSeeked(double seek) {
 	if (preferences::get_enabled()) {
 		std::time_t result = std::time(nullptr);
@@ -228,7 +228,7 @@ void UpdatePresenceSeeked(double seek) {
 		Discord_UpdatePresence(&discordPresence);
 	}
 }
-
+// Determine if there's no song name.
 void UpdatePresenceResumed() {
 	if (savedartist == NULL && savedsongname == NULL) {
 		return;
@@ -302,7 +302,7 @@ void UpdatePresenceResumed() {
 		Discord_UpdatePresence(&discordPresence);
 	}
 }
-
+// Determine if the song is paused.
 void UpdatePresencePaused() {
 	if (preferences::get_enabled()) {
 		pause_epoch = std::time(nullptr);
@@ -369,7 +369,7 @@ void UpdatePresencePaused() {
 		Discord_UpdatePresence(&discordPresence);
 	}
 }
-
+// Determine if the song is stopped.
 void UpdatePresenceStopped()
 {
 	if (preferences::get_enabled()) {
@@ -488,7 +488,7 @@ void UpdatePresenceStopped()
 				Discord_UpdatePresence(&discordPresence);
 			}
 		}
-		else {
+		else { // If there's nothing detected, clear the discord presence.
 			Discord_ClearPresence();
 		}
 	}
