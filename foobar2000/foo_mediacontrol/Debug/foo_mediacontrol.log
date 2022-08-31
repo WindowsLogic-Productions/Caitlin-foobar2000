@@ -1,2 +1,1 @@
-﻿  PCH.cpp
-PCH.cpp : fatal error C1107: could not find assembly 'platform.winmd': please specify the assembly search path using /AI or by setting the LIBPATH environment variable
+﻿D:\Programs\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Platforms\Win32\PlatformToolsets\v141\Toolset.targets(34,5): error MSB8036: The Windows SDK version 10.0.10240.0 was not found. Install the required version of Windows SDK or change the SDK version in the project property pages or by right-clicking the solution and selecting "Retarget solution".
