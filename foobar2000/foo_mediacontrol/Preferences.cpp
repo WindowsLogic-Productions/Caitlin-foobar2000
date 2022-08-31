@@ -191,7 +191,7 @@ LRESULT preferences::OnBnClickedButton2(WORD /*wNotifyCode*/, WORD /*wID*/, HWND
 LRESULT preferences::OnBnClickedButton3(WORD /*wNotifyCode*/, WORD /*wID*/, HWND /*hWndCtl*/, BOOL& /*bHandled*/)
 {
 	// TODO: Add your control notification handler code here
-	ShellExecute(0, 0, L"https://discord.gg/gFsvJCB", 0, 0, SW_SHOW);
+	ShellExecute(0, 0, L"https://discord.gg/MdD6bdUVhj", 0, 0, SW_SHOW);
 	return 0;
 }
 

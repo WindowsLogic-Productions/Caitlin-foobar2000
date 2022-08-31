@@ -2,7 +2,7 @@
 
 #include "resource.h"
 
-#define PREFERENCES_SECTION_NAME "Luna Music Rich Presence"
+#define PREFERENCES_SECTION_NAME "Caitlin's Rich Presence"
 
 class preferences : public CDialogImpl<preferences>, public preferences_page_instance {
 public:
