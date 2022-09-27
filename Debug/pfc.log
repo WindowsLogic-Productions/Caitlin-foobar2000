@@ -24,7 +24,7 @@
   wildcard.cpp
   win-objects.cpp
 win-objects.cpp(297): warning C4996: 'GetVersion': was declared deprecated
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\um\sysinfoapi.h(124): note: see declaration of 'GetVersion'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\um\sysinfoapi.h(183): note: see declaration of 'GetVersion'
   Generating Code...
 nix-objects.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
   pfc.vcxproj -> J:\Projects\Caitlin-foobar2000\foobar2000\foo_mediacontrol\Debug\pfc.lib

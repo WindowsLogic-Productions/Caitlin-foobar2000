@@ -1,1 +1,46 @@
-﻿D:\Programs\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Platforms\x64\PlatformToolsets\v141\Toolset.targets(36,5): error MSB8036: The Windows SDK version 10.0.10240.0 was not found. Install the required version of Windows SDK or change the SDK version in the project property pages or by right-clicking the solution and selecting "Retarget solution".
+﻿  StdAfx.cpp
+j:\projects\caitlin-foobar2000\foobar2000\shared\fb2kdebug.h(80): warning C4838: conversion from 'int' to 'const ULONG_PTR' requires a narrowing conversion
+j:\projects\caitlin-foobar2000\foobar2000\helpers\win32_misc.h(126): warning C4996: 'GetVersion': was declared deprecated
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\um\sysinfoapi.h(183): note: see declaration of 'GetVersion'
+j:\projects\caitlin-foobar2000\foobar2000\helpers\win32_misc.h(237): warning C4302: 'type cast': truncation from 'LPWSTR' to 'wchar_t'
+j:\projects\caitlin-foobar2000\foobar2000\helpers\win32_misc.h(273): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+j:\projects\caitlin-foobar2000\foobar2000\helpers\ThreadUtils.h(59): warning C4267: 'argument': conversion from 'size_t' to 'DWORD', possible loss of data
+j:\projects\caitlin-foobar2000\foobar2000\helpers\CPowerRequest.h(59): warning C4996: 'GetVersion': was declared deprecated
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\um\sysinfoapi.h(183): note: see declaration of 'GetVersion'
+  clipboard.cpp
+  CPowerRequest.cpp
+  create_directory_helper.cpp
+  cue_creator.cpp
+  cue_parser.cpp
+  cue_parser_embedding.cpp
+  cuesheet_index_list.cpp
+  dialog_resize_helper.cpp
+dialog_resize_helper.cpp(34): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+  dropdown_helper.cpp
+  dynamic_bitrate_helper.cpp
+  file_info_const_impl.cpp
+file_info_const_impl.cpp(244): warning C4267: '=': conversion from 'size_t' to 'file_info_const_impl::t_index', possible loss of data
+  file_list_helper.cpp
+  file_move_helper.cpp
+  filetimetools.cpp
+  file_win32_wrapper.cpp
+  IDataObjectUtils.cpp
+  input_helpers.cpp
+  listview_helper.cpp
+listview_helper.cpp(46): warning C4838: conversion from 'unsigned int' to 'LONG' requires a narrowing conversion
+  metadb_io_hintlist.cpp
+  mp3_utils.cpp
+  Generating Code...
+  Compiling...
+  seekabilizer.cpp
+  stream_buffer_helper.cpp
+  text_file_loader.cpp
+  VisUtils.cpp
+  win32_dialog.cpp
+  win32_misc.cpp
+win32_misc.cpp(116): warning C4996: 'GetVersionExW': was declared deprecated
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\um\sysinfoapi.h(451): note: see declaration of 'GetVersionExW'
+  window_placement_helper.cpp
+  writer_wav.cpp
+  Generating Code...
+  foobar2000_sdk_helpers.vcxproj -> J:\Projects\Caitlin-foobar2000\foobar2000\foo_mediacontrol\x64\Debug\foobar2000_sdk_helpers.lib

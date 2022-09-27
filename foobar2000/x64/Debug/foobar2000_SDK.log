@@ -1,1 +1,77 @@
-﻿D:\Programs\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Platforms\x64\PlatformToolsets\v141\Toolset.targets(36,5): error MSB8036: The Windows SDK version 10.0.10240.0 was not found. Install the required version of Windows SDK or change the SDK version in the project property pages or by right-clicking the solution and selecting "Retarget solution".
+﻿  stdafx.cpp
+j:\projects\caitlin-foobar2000\foobar2000\shared\fb2kdebug.h(80): warning C4838: conversion from 'int' to 'const ULONG_PTR' requires a narrowing conversion
+  abort_callback.cpp
+  advconfig.cpp
+  album_art.cpp
+  app_close_blocker.cpp
+  audio_chunk.cpp
+  audio_chunk_channel_config.cpp
+  cfg_var.cpp
+  chapterizer.cpp
+  commandline.cpp
+  completion_notify.cpp
+  componentversion.cpp
+  config_object.cpp
+  console.cpp
+console.cpp(48): warning C4995: 'uPrintfV': name was marked as #pragma deprecated
+  dsp.cpp
+  dsp_manager.cpp
+  file_cached_impl.cpp
+  file_info.cpp
+  file_info_impl.cpp
+  file_info_merge.cpp
+  file_operation_callback.cpp
+  Generating Code...
+  Compiling...
+  filesystem.cpp
+filesystem.cpp(442): warning C4996: '_wfopen': This function or variable may be unsafe. Consider using _wfopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\corecrt_wstdio.h(130): note: see declaration of '_wfopen'
+  filesystem_helper.cpp
+  guids.cpp
+  hasher_md5.cpp
+  input.cpp
+  input_file_type.cpp
+  link_resolver.cpp
+  mainmenu.cpp
+  main_thread_callback.cpp
+  mem_block_container.cpp
+  menu_helpers.cpp
+  menu_item.cpp
+  menu_manager.cpp
+menu_manager.cpp(338): warning C4244: 'argument': conversion from 'WPARAM' to 'UINT', possible loss of data
+menu_manager.cpp(342): warning C4244: 'argument': conversion from 'WPARAM' to 'UINT', possible loss of data
+menu_manager.cpp(346): warning C4244: 'argument': conversion from 'WPARAM' to 'UINT', possible loss of data
+menu_manager.cpp(409): warning C4244: 'argument': conversion from 'const WPARAM' to 't_uint32', possible loss of data
+  metadb.cpp
+metadb.cpp(22): warning C4996: 'metadb_io::load_info_multi': was declared deprecated
+  j:\projects\caitlin-foobar2000\foobar2000\sdk\metadb.h(35): note: see declaration of 'metadb_io::load_info_multi'
+metadb.cpp(28): warning C4996: 'metadb_io::update_info_multi': was declared deprecated
+  j:\projects\caitlin-foobar2000\foobar2000\sdk\metadb.h(37): note: see declaration of 'metadb_io::update_info_multi'
+  metadb_handle.cpp
+  metadb_handle_list.cpp
+  output.cpp
+  packet_decoder.cpp
+  playable_location.cpp
+  playback_control.cpp
+  Generating Code...
+  Compiling...
+  playlist.cpp
+playlist.cpp(735): warning C4996: 'metadb_io::load_info_multi': was declared deprecated
+  j:\projects\caitlin-foobar2000\foobar2000\sdk\metadb.h(35): note: see declaration of 'metadb_io::load_info_multi'
+  playlist_loader.cpp
+  popup_message.cpp
+  preferences_page.cpp
+  replaygain.cpp
+  replaygain_info.cpp
+replaygain_info.cpp(20): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\string.h(90): note: see declaration of 'strcat'
+  search_tools.cpp
+  service.cpp
+  tag_processor.cpp
+  tag_processor_id3v2.cpp
+  threaded_process.cpp
+  titleformat.cpp
+  ui.cpp
+  ui_element.cpp
+  Generating Code...
+  foobar2000_SDK.vcxproj -> J:\Projects\Caitlin-foobar2000\foobar2000\SDK\x64\Debug\foobar2000_SDK.lib

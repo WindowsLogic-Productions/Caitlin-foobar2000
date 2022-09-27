@@ -1,10 +1,10 @@
 ﻿  StdAfx.cpp
 j:\projects\caitlin-foobar2000\foobar2000\shared\fb2kdebug.h(80): warning C4838: conversion from 'int' to 'const ULONG_PTR' requires a narrowing conversion
 j:\projects\caitlin-foobar2000\foobar2000\helpers\win32_misc.h(126): warning C4996: 'GetVersion': was declared deprecated
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\um\sysinfoapi.h(124): note: see declaration of 'GetVersion'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\um\sysinfoapi.h(183): note: see declaration of 'GetVersion'
 j:\projects\caitlin-foobar2000\foobar2000\helpers\win32_misc.h(237): warning C4302: 'type cast': truncation from 'LPWSTR' to 'wchar_t'
 j:\projects\caitlin-foobar2000\foobar2000\helpers\CPowerRequest.h(59): warning C4996: 'GetVersion': was declared deprecated
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\um\sysinfoapi.h(124): note: see declaration of 'GetVersion'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\um\sysinfoapi.h(183): note: see declaration of 'GetVersion'
   clipboard.cpp
   CPowerRequest.cpp
   create_directory_helper.cpp
@@ -35,7 +35,7 @@ listview_helper.cpp(46): warning C4838: conversion from 'unsigned int' to 'LONG'
   win32_dialog.cpp
   win32_misc.cpp
 win32_misc.cpp(116): warning C4996: 'GetVersionExW': was declared deprecated
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\um\sysinfoapi.h(459): note: see declaration of 'GetVersionExW'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\um\sysinfoapi.h(451): note: see declaration of 'GetVersionExW'
   window_placement_helper.cpp
   writer_wav.cpp
   Generating Code...
